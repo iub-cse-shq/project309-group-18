@@ -1,0 +1,130 @@
+body{    
+    background-color:#6abadeba;  
+    font-family: 'Arial';
+}
+
+div.head{
+    color: rgb(53, 40, 40);
+    text-align: center;
+    font-weight: normal;
+    line-height: 32px;
+    padding: 8px;
+    margin-bottom: 7px;
+    font-size: 24px;
+}
+
+form{
+    text-align: center;
+}
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #23463f;  
+    border-radius: 15px ;  
+      
+}  
+h2{  
+text-align: center;  
+color: #277582;  
+padding: 20px;  
+}  
+label{  
+color: #08ffd1;  
+font-size: 17px;  
+}  
+#Uname{  
+width: 300px;  
+height: 25px;  
+border: 1px solid #dddfe2;  
+border-radius: 3px;  
+padding-left: 8px;  
+}  
+#Pass{  
+width: 300px;  
+height: 25px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px; 
+border: 1px solid #dddfe2;  
+}  
+#log{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 17px;  
+padding-left: 7px;  
+background-color: #1877f2;
+color: whitesmoke;
+font-weight: bold;  
+font-size: 17px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+cursor: pointer;
+
+}  
+span{  
+color: white;  
+font-size: 17px;  
+}  
+
+a{
+    color: #08ffd1;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+#reg{
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+  @media only screen and (max-width: 768px) {
+    div.head{
+        font-size: 15px;
+        line-height: 50px;
+        top: 40px;
+        width: 100%;
+        
+    }
+    body{
+        background-color: burlywood;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    div.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+  #type{
+      height: 25px;
+      border-radius: 3px;
+      text-align: center;
+  }
+  
+

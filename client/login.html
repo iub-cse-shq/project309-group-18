@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carear Builder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css1.css">
+    </head>
+    <body>
+        <div class="head">
+            <h1>Career Builder</h1>
+            <h4 id="obj">It will help you to get job for building your career</h4>
+        </div>
+
+        <div class="login">    
+            <form id="login" method="POST" action="/login">    
+                <label>
+                    <b>User Name</b>    
+                </label>    
+                <input type="text" name="Uname" id="Uname" placeholder="Enter Username" required>    
+                <br><br>    
+                <label>
+                    <b>Password</b>    
+                </label>    
+                <input type="Password" name="Pass" id="Pass" placeholder="Enter Password" required>    
+                <br><br>
+                <label for="type"><b>User Type</b></label><br>
+                <select name="type" id="type">
+                    <option value="jobseeker">Jobseeker</option>
+                    <option value="company">Employer</option>
+                </select>  
+                <br><br>  
+                <button id="log">Login</button>       
+                <br><br>              
+                <div class="psw">
+                    <a href="#">Forgotten Password?</a>
+                </div> 
+                <br>
+                <div class="line"></div> 
+                <br>
+                <button id="reg">Create New Account</button>
+            </form>     
+        </div>    
+        
+    
+        <script src="/jquery-3.5.1.min.js"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>
